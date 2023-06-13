@@ -18,6 +18,8 @@ namespace c_sharp_oop
             this.name=name;
             this.age=age;
             this.id=id;
+            printDetails();
+            attendance();
         }
         
        public void attendance() 
@@ -29,6 +31,13 @@ namespace c_sharp_oop
 
             WriteLine("stdent attends {0} class and {1} did not attends", attende, absence);
         
+        }
+        public void printDetails()
+        {
+            WriteLine("student detailes is:");
+            WriteLine("student name is " + this.name);
+            WriteLine("student age is " + this.age);
+            WriteLine("student id is " + this.id);
         }
         
     }

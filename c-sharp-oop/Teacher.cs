@@ -19,10 +19,18 @@ namespace c_sharp_oop
             this.subject = subject;
             this.athnicity = athnicity;
             this.yearsExperiance= yearsExperiance;
+            printDetails();
+            langus();
 
 
         }
-
+        public void printDetails()
+        {
+            WriteLine("teacher name is " + this.name);
+            WriteLine("he teachs " + this.subject);
+            WriteLine(this.name + " is " + this.athnicity);
+            WriteLine(this.name + " have " + this.yearsExperiance + "years of Experiance");
+        }
 
         public void langus()
         {
