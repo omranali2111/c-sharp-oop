@@ -17,12 +17,8 @@ public class Program
 
         std1.attendance();
 
-        Teacher teacher = new Teacher();
-        teacher.name = "ali";
-        teacher.subject = "languages";
-        teacher.athnicity = "omani";
-        teacher.yearsExperiance = 7;
-
+        Teacher teacher = new Teacher("ali", "languages", "omani", 7);
+       
         WriteLine("teacher name is " + teacher.name);
         WriteLine("he teachs " + teacher.subject);
         WriteLine(teacher.name + " is " + teacher.athnicity);

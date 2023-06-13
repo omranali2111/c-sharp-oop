@@ -13,6 +13,16 @@ namespace c_sharp_oop
       public string athnicity;
       public int yearsExperiance;
 
+        public Teacher(string name,string subject,string athnicity,int yearsExperiance) 
+        { 
+            this.name = name;
+            this.subject = subject;
+            this.athnicity = athnicity;
+            this.yearsExperiance= yearsExperiance;
+
+
+        }
+
 
         public void langus()
         {
