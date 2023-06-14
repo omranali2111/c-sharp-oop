@@ -18,5 +18,7 @@ public class Program
         Circle cir = new Circle(3);
         WriteLine("###########################################");
         BankAccount Account = new("14433244", "omar", 2500);
+        WriteLine("###########################################");
+        Employee employee = new Employee("salim", "engineer", 1300.50);
     }
 }
