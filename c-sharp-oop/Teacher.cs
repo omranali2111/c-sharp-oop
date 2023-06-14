@@ -12,7 +12,7 @@ namespace c_sharp_oop
       public string subject;
       public string athnicity;
       public int yearsExperiance;
-
+        public Teacher() { }
         public Teacher(string name,string subject,string athnicity,int yearsExperiance) 
         { 
             this.name = name;

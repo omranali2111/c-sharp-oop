@@ -17,10 +17,11 @@ namespace c_sharp_oop
     public class Circle
     {
         public double Radius;
-
+        public Circle() { }
         public Circle(double Radius) 
         
         { 
+            this.Radius = Radius;
             calcRadius(Radius);
         }
         public void calcRadius(double Radius)

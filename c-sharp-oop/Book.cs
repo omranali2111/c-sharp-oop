@@ -21,6 +21,8 @@ namespace c_sharp_oop
         public string Author;
         public int Years;
 
+        public Book() { }
+
         public Book(string Title, string Author, int Years) 
         {
             WriteLine("book name is " + this.Title);

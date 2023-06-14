@@ -22,6 +22,7 @@ namespace c_sharp_oop
         public string OwnerName;
         public double Balance;
 
+        public BankAccount() { }
         public BankAccount(string AccountNumber, string OwnerName, double Balance)
         {
             this.AccountNumber = AccountNumber;
